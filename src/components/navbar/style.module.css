@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  margin: 10px 0;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.menuBtn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  /* border: 2px solid #5936a4; */
+}
+
+.menuBtnBurger {
+  width: 30px;
+  height: 3px;
+  background: #5936a4;
+  border-radius: 2px;
+  transition: all 0.5s ease-in-out;
+}
+
+.menuBtnBurger::before,
+.menuBtnBurger::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: #5936a4;
+  border-radius: 2px;
+  transition: all 0.5s ease-in-out;
+}
+
+.menuBtnBurger::before {
+  transform: translateY(-8px);
+}
+
+.menuBtnBurger::after {
+  transform: translateY(8px);
+}
+
+.menuOpen .menuBtnBurger {
+  transform: translateX(-24px);
+  background: transparent;
+}
+
+.menuOpen .menuBtnBurger::before {
+  transform: rotate(45deg) translate(17px, -17px);
+}
+
+.menuOpen .menuBtnBurger::after {
+  transform: rotate(-45deg) translate(17px, 17px);
+}
+
+.navMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 2px; */
+}
+
+.navMenuLink {
+  margin: 0 15px;
+  padding: 5px;
+  text-decoration: none;
+  color: #5936a4;
+  border: 2px solid transparent;
+}
+
+.navMenuLink:hover {
+  border: 2px solid #5936a4;
+}
+
+@media (max-width: 850px) {
+  .navMenu {
+    display: none;
+  }
+
+  .burgerNavMenu {
+    display: None;
+  }
+
+  .active {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  .navLinkContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 851px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}

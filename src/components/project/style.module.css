@@ -1,0 +1,38 @@
+.container {
+  background: #ffffff;
+  padding: 20px;
+  max-width: 350px;
+  max-height: 400px;
+  min-width: 100px;
+  margin: 10px 5px 20px 5px;
+  box-shadow: 4px 3px 8px 1px #969696;
+  -webkit-box-shadow: 4px 3px 8px 1px #969696;
+}
+
+.outer {
+  display: flex;
+}
+
+.image img {
+  max-width: 100%;
+}
+
+.projectBody {
+  text-align: left;
+}
+
+.projectBody h3 {
+  color: #5936a4;
+}
+
+.projectBody a {
+  text-decoration: none;
+  margin-top: 15px;
+  color: #5936a4;
+  padding: 5px 50px;
+  border: 1px solid #5936a4;
+}
+
+@media (max-width: 400px) {
+  
+}
