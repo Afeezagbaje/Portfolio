@@ -1,11 +1,11 @@
 import Project from "../project";
+import ProjectsData from "./data";
 import React from "react";
 import styles from "./style.module.css";
-import ProjectsData from "./data";
 
 const Projects = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="projects">
       <div className={styles.outer}>
         <div className={styles.inner}>
           <div className={styles.header}>PROJECTS</div>

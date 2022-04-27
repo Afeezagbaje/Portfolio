@@ -16,7 +16,7 @@ const Project = ({ image, name, link, description }) => {
             <div className={styles.projectBody}>
               <h3>{name}</h3>
               <p>{description}</p>
-              <a href={link}>visit</a>
+              <a href={link} target="_blank" rel="noopener noreferrer">visit</a>
             </div>
           </div>
         </div>

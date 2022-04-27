@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import Logo from "../logo";
 import styles from "./style.module.css";
 
@@ -33,18 +34,18 @@ const Navbar = () => {
         id="navmenu"
       >
         <div className={styles.navLinkContainer}>
-          <a href="#about" className={styles.navMenuLink}>
+          <AnchorLink href="#about" className={styles.navMenuLink}>
             about me
-          </a>
-          <a href="#skills" className={styles.navMenuLink}>
+          </AnchorLink>
+          <AnchorLink href="#skills" className={styles.navMenuLink}>
             skills
-          </a>
-          <a href="#projects" className={styles.navMenuLink}>
+          </AnchorLink>
+          <AnchorLink href="#projects" className={styles.navMenuLink}>
             projects
-          </a>
-          <a href="#contact" className={styles.navMenuLink}>
+          </AnchorLink>
+          <AnchorLink href="#contact" className={styles.navMenuLink}>
             contact me
-          </a>
+          </AnchorLink>
         </div>
       </div>
     </nav>

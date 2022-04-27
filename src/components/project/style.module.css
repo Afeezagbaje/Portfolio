@@ -7,6 +7,14 @@
   margin: 10px 5px 20px 5px;
   box-shadow: 4px 3px 8px 1px #969696;
   -webkit-box-shadow: 4px 3px 8px 1px #969696;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+
+.container:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
 }
 
 .outer {

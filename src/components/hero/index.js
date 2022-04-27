@@ -21,6 +21,9 @@ const Hero = () => {
             <a href="https://twitter.com"><FaLinkedin className={styles.icons}/></a>
             <a href="https://twitter.com"><FaGithub className={styles.icons}/></a>
           </div>
+          <div className={styles.download_cont}>
+              <a className={styles.download} href="src/assets/Afeez_Agbaje_Resume.pdf" download>Download CV</a>
+          </div>
         </div>
       </div>
     </div>

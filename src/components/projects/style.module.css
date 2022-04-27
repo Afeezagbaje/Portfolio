@@ -21,7 +21,6 @@
     margin: 70px;
 }
 
-
 @media (max-width: 400px) {
   .header {
     letter-spacing: 0.5rem;
@@ -29,6 +28,6 @@
 
   .projects {
     justify-content: center;
-    margin: 20px 5px;
+    margin: 20px 10px;
   }
 }

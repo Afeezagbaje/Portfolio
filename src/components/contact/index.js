@@ -3,7 +3,7 @@ import styles from "./style.module.css";
 
 const Contact = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="contact">
       <div className={styles.contactContainer}>
         <span className={styles.contact}>CONTACT ME</span>
       </div>
