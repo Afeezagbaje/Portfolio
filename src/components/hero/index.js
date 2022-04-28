@@ -33,6 +33,7 @@ const Hero = () => {
             <a
               className={styles.download}
               href="https://res.cloudinary.com/afeezagbaje/image/upload/v1651093534/DevBlogs/Afeez_Agbaje_Resume_te0im1.pdf"
+              target="_blank" rel="noopener noreferrer"
               download
             >
               Download CV
