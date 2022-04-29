@@ -19,12 +19,12 @@ const ProjectsData = [
     },
     {
         id: 3,
-        name: "Sherton Hotel Booking",
+        name: "The Music Box",
         description:
-        "A Hotel Management application where users can browse through hotel rooms, make reservations or book rooms, and make payments.",
+        "A Music streaming platform where you can listen to previews of songs and albums from any artist. You can also search for songs, artist and albums by name, create playlist for your favorite songs and also like songs.",
         cover_img:
-        "https://res.cloudinary.com/afeezagbaje/image/upload/v1634722818/samples/Logos/Screenshot_2021-10-20_at_10.39.44_mpqnxt.png",
-        link: "https://omegahms.herokuapp.com/",
+        "https://res.cloudinary.com/afeezagbaje/image/upload/v1651259156/samples/Logos/themusicbox_lnw6sn.png",
+        link: "https://themusicbox.netlify.app/",
     }
 
 ];

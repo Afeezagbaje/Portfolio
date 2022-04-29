@@ -36,9 +36,7 @@ img {
   font-size: 1.2rem;
   text-align: left;
   line-height: 2;
-  /* width: 80%; */
   margin-top: 1.5rem;
-  /* margin-left: 1.5rem; */
 }
 
 @media (max-width: 400px) {
